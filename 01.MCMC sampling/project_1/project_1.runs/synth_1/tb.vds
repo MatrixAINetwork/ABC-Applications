@@ -1,0 +1,1171 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu May 25 20:05:45 2017
+# Process ID: 1244
+# Current directory: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log tb.vds -mode batch -messageDb vivado.pb -notrace -source tb.tcl
+# Log file: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/tb.vds
+# Journal file: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tb.tcl -notrace
+Command: synth_design -top tb -part xc7vx690tffg1761-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx690t'
+INFO: [Common 17-1223] The version limit for your license is '2017.01' and will expire in -114 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6020 
+WARNING: [Synth 8-2306] macro STAT_WAIT redefined [C:/Users/Gao Fei/Desktop/sample/sample.v:8]
+WARNING: [Synth 8-2306] macro PARA_SIZE redefined [C:/Users/Gao Fei/Desktop/sample/buff.v:2]
+WARNING: [Synth 8-2306] macro STAT_WAIT redefined [C:/Users/Gao Fei/Desktop/sample/buff.v:4]
+WARNING: [Synth 8-2306] macro PARA_SIZE redefined [C:/Users/Gao Fei/Desktop/sample/tb.v:2]
+WARNING: [Synth 8-2306] macro STAT_WAIT redefined [C:/Users/Gao Fei/Desktop/sample/tb.v:8]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 304.488 ; gain = 97.316
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'tb' [C:/Users/Gao Fei/Desktop/sample/tb.v:12]
+INFO: [Synth 8-638] synthesizing module 'buff' [C:/Users/Gao Fei/Desktop/sample/buff.v:13]
+INFO: [Synth 8-638] synthesizing module 'singlethread' [C:/Users/Gao Fei/Desktop/sample/singlethread.v:8]
+INFO: [Synth 8-256] done synthesizing module 'singlethread' (1#1) [C:/Users/Gao Fei/Desktop/sample/singlethread.v:8]
+INFO: [Synth 8-226] default block is never used [C:/Users/Gao Fei/Desktop/sample/buff.v:99]
+WARNING: [Synth 8-5788] Register queue_reg[7][7] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[7][6] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[7][5] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[7][4] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[7][3] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[7][2] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[7][1] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[7][0] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[6][7] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[6][6] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[6][5] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[6][4] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[6][3] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[6][2] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[6][1] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[6][0] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[5][7] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[5][6] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[5][5] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[5][4] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[5][3] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[5][2] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[5][1] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[5][0] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[4][7] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[4][6] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[4][5] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[4][4] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[4][3] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[4][2] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[4][1] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[4][0] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[3][7] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[3][6] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[3][5] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[3][4] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[3][3] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[3][2] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[3][1] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[3][0] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[2][7] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[2][6] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[2][5] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[2][4] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[2][3] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[2][2] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[2][1] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[2][0] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[1][7] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[1][6] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[1][5] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[1][4] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[1][3] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[1][2] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[1][1] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[1][0] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[0][7] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[0][6] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[0][5] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[0][4] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[0][3] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[0][2] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[0][1] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+WARNING: [Synth 8-5788] Register queue_reg[0][0] in module buff is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Gao Fei/Desktop/sample/buff.v:46]
+INFO: [Synth 8-256] done synthesizing module 'buff' (2#1) [C:/Users/Gao Fei/Desktop/sample/buff.v:13]
+WARNING: [Synth 8-689] width (4) of port connection 'rd' does not match port width (8) of module 'buff' [C:/Users/Gao Fei/Desktop/sample/tb.v:27]
+WARNING: [Synth 8-689] width (128) of port connection 'data_O' does not match port width (256) of module 'buff' [C:/Users/Gao Fei/Desktop/sample/tb.v:29]
+WARNING: [Synth 8-689] width (4) of port connection 'ready' does not match port width (8) of module 'buff' [C:/Users/Gao Fei/Desktop/sample/tb.v:30]
+INFO: [Synth 8-638] synthesizing module 'sample' [C:/Users/Gao Fei/Desktop/sample/sample.v:11]
+INFO: [Synth 8-638] synthesizing module 'sample_FSM' [C:/Users/Gao Fei/Desktop/sample/sample.v:65]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Gao Fei/Desktop/sample/sample.v:89]
+INFO: [Synth 8-256] done synthesizing module 'sample_FSM' (3#1) [C:/Users/Gao Fei/Desktop/sample/sample.v:65]
+INFO: [Synth 8-638] synthesizing module 'sample_comb_32S' [C:/Users/Gao Fei/Desktop/sample/sample.v:124]
+INFO: [Synth 8-256] done synthesizing module 'sample_comb_32S' (4#1) [C:/Users/Gao Fei/Desktop/sample/sample.v:124]
+INFO: [Synth 8-256] done synthesizing module 'sample' (5#1) [C:/Users/Gao Fei/Desktop/sample/sample.v:11]
+WARNING: [Synth 8-689] width (4) of port connection 'rand_rd' does not match port width (8) of module 'sample' [C:/Users/Gao Fei/Desktop/sample/tb.v:46]
+WARNING: [Synth 8-689] width (4) of port connection 'rand_ready' does not match port width (8) of module 'sample' [C:/Users/Gao Fei/Desktop/sample/tb.v:47]
+WARNING: [Synth 8-689] width (128) of port connection 'rand_data' does not match port width (256) of module 'sample' [C:/Users/Gao Fei/Desktop/sample/tb.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tb' (6#1) [C:/Users/Gao Fei/Desktop/sample/tb.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 329.402 ; gain = 122.230
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 329.402 ; gain = 122.230
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx690tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Gao Fei/Desktop/sample/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+Finished Parsing XDC File [C:/Users/Gao Fei/Desktop/sample/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 822.559 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 822.559 ; gain = 615.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx690tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 822.559 ; gain = 615.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 822.559 ; gain = 615.387
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "ptr_I_reg[7]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ptr_I_reg[6]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ptr_I_reg[5]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ptr_I_reg[4]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ptr_I_reg[3]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ptr_I_reg[2]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ptr_I_reg[1]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ptr_I_reg[0]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "queue_reg[7][7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state_I" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state_I" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 822.559 ; gain = 615.387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |sample__GB0   |           1|     30426|
+|2     |sample__GB1   |           1|      9282|
+|3     |sample__GB2   |           1|     11098|
+|4     |buff          |           1|      5021|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 32    
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 34    
++---Registers : 
+	               32 Bit    Registers := 64    
+	                8 Bit    Registers := 33    
+	                3 Bit    Registers := 17    
+	                2 Bit    Registers := 33    
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 32    
+	   3 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 89    
+	   5 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 129   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module singlethread__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module singlethread__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module singlethread__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module singlethread__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module singlethread__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module singlethread__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module singlethread__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module singlethread 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module buff 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 18    
++---Registers : 
+	               32 Bit    Registers := 64    
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 9     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 73    
+	   4 Input      1 Bit        Muxes := 65    
+Module sample_FSM__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__1 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__2 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__3 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__4 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__5 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_FSM__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_FSM__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__6 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__7 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__8 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__9 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__12 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_FSM__13 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__10 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__14 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_FSM__15 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_FSM__16 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__11 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__17 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__12 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__18 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__13 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__19 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__14 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__20 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__15 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__21 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__16 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__22 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__17 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__23 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__18 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__24 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__19 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__25 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__20 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_comb_32S__21 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_comb_32S__22 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_comb_32S__23 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_comb_32S__24 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_comb_32S__25 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_comb_32S__26 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__26 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__27 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__27 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__28 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__28 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__29 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__29 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__30 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__30 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S__31 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM__31 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module sample_comb_32S 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input      5 Bit       Adders := 1     
+Module sample_FSM 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 3600 (col length:200)
+BRAMs: 2940 (col length: RAMB18 200 RAMB36 100)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 822.559 ; gain = 615.387
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "state_I" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "queue_reg[7][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 822.559 ; gain = 615.387
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 822.559 ; gain = 615.387
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |sample__GB0   |           1|     31364|
+|2     |sample__GB1   |           1|      9594|
+|3     |sample__GB2   |           1|     11448|
+|4     |buff          |           1|      5032|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[7].blocks[2].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[7].blocks[2].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[7].blocks[3].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[7].blocks[3].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[7].blocks[1].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[7].blocks[1].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[4].blocks[2].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[4].blocks[2].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[4].blocks[3].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[4].blocks[3].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[5].blocks[0].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[5].blocks[0].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[5].blocks[1].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[5].blocks[1].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[5].blocks[2].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[5].blocks[2].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[5].blocks[3].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[5].blocks[3].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[6].blocks[0].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[6].blocks[0].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[6].blocks[1].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[6].blocks[1].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[6].blocks[2].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[6].blocks[2].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[6].blocks[3].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[6].blocks[3].fsm /\rand_reg[7] )
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[0]' (FDCE) to 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[1]' (FDCE) to 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[2]' (FDCE) to 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[3]' (FDCE) to 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[4]' (FDCE) to 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[5]' (FDCE) to 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[6]' (FDCE) to 'ss1i_0/ports[7].blocks[0].fsm/rand_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_0/\ports[7].blocks[0].fsm /\rand_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__1.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__1.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__2.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__2.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__3.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__3.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__4.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__4.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__5.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__5.
+WARNING: [Synth 8-3332] Sequential element (state_reg[1]) is unused and will be removed from module sample_FSM__7.
+WARNING: [Synth 8-3332] Sequential element (state_reg[0]) is unused and will be removed from module sample_FSM__7.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[7]) is unused and will be removed from module sample_FSM__7.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[6]) is unused and will be removed from module sample_FSM__7.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[5]) is unused and will be removed from module sample_FSM__7.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[4]) is unused and will be removed from module sample_FSM__7.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[3]) is unused and will be removed from module sample_FSM__7.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[2]) is unused and will be removed from module sample_FSM__7.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__7.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__7.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__9.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__9.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__10.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__10.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__11.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__11.
+WARNING: [Synth 8-3332] Sequential element (state_reg[1]) is unused and will be removed from module sample_FSM__13.
+WARNING: [Synth 8-3332] Sequential element (state_reg[0]) is unused and will be removed from module sample_FSM__13.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[7]) is unused and will be removed from module sample_FSM__13.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[6]) is unused and will be removed from module sample_FSM__13.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[5]) is unused and will be removed from module sample_FSM__13.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[4]) is unused and will be removed from module sample_FSM__13.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[3]) is unused and will be removed from module sample_FSM__13.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[2]) is unused and will be removed from module sample_FSM__13.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__13.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__13.
+WARNING: [Synth 8-3332] Sequential element (state_reg[1]) is unused and will be removed from module sample_FSM__14.
+WARNING: [Synth 8-3332] Sequential element (state_reg[0]) is unused and will be removed from module sample_FSM__14.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[7]) is unused and will be removed from module sample_FSM__14.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[6]) is unused and will be removed from module sample_FSM__14.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[5]) is unused and will be removed from module sample_FSM__14.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[4]) is unused and will be removed from module sample_FSM__14.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[3]) is unused and will be removed from module sample_FSM__14.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[2]) is unused and will be removed from module sample_FSM__14.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__14.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__14.
+WARNING: [Synth 8-3332] Sequential element (state_reg[1]) is unused and will be removed from module sample_FSM__15.
+WARNING: [Synth 8-3332] Sequential element (state_reg[0]) is unused and will be removed from module sample_FSM__15.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[7]) is unused and will be removed from module sample_FSM__15.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[6]) is unused and will be removed from module sample_FSM__15.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[5]) is unused and will be removed from module sample_FSM__15.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[4]) is unused and will be removed from module sample_FSM__15.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[3]) is unused and will be removed from module sample_FSM__15.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[2]) is unused and will be removed from module sample_FSM__15.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__15.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__15.
+WARNING: [Synth 8-3332] Sequential element (state_reg[1]) is unused and will be removed from module sample_FSM__16.
+WARNING: [Synth 8-3332] Sequential element (state_reg[0]) is unused and will be removed from module sample_FSM__16.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[7]) is unused and will be removed from module sample_FSM__16.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[6]) is unused and will be removed from module sample_FSM__16.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[5]) is unused and will be removed from module sample_FSM__16.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[4]) is unused and will be removed from module sample_FSM__16.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[3]) is unused and will be removed from module sample_FSM__16.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[2]) is unused and will be removed from module sample_FSM__16.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__16.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__16.
+WARNING: [Synth 8-3332] Sequential element (state_reg[1]) is unused and will be removed from module sample_FSM__17.
+WARNING: [Synth 8-3332] Sequential element (state_reg[0]) is unused and will be removed from module sample_FSM__17.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[7]) is unused and will be removed from module sample_FSM__17.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[6]) is unused and will be removed from module sample_FSM__17.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[5]) is unused and will be removed from module sample_FSM__17.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[4]) is unused and will be removed from module sample_FSM__17.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[3]) is unused and will be removed from module sample_FSM__17.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[2]) is unused and will be removed from module sample_FSM__17.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__17.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__17.
+WARNING: [Synth 8-3332] Sequential element (state_reg[1]) is unused and will be removed from module sample_FSM__18.
+WARNING: [Synth 8-3332] Sequential element (state_reg[0]) is unused and will be removed from module sample_FSM__18.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[7]) is unused and will be removed from module sample_FSM__18.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[6]) is unused and will be removed from module sample_FSM__18.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[5]) is unused and will be removed from module sample_FSM__18.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[4]) is unused and will be removed from module sample_FSM__18.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[3]) is unused and will be removed from module sample_FSM__18.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[2]) is unused and will be removed from module sample_FSM__18.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__18.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__18.
+WARNING: [Synth 8-3332] Sequential element (state_reg[1]) is unused and will be removed from module sample_FSM__19.
+WARNING: [Synth 8-3332] Sequential element (state_reg[0]) is unused and will be removed from module sample_FSM__19.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[7]) is unused and will be removed from module sample_FSM__19.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[6]) is unused and will be removed from module sample_FSM__19.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[5]) is unused and will be removed from module sample_FSM__19.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[4]) is unused and will be removed from module sample_FSM__19.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[3]) is unused and will be removed from module sample_FSM__19.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[2]) is unused and will be removed from module sample_FSM__19.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[1]) is unused and will be removed from module sample_FSM__19.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[0]) is unused and will be removed from module sample_FSM__19.
+WARNING: [Synth 8-3332] Sequential element (state_reg[1]) is unused and will be removed from module sample_FSM__20.
+WARNING: [Synth 8-3332] Sequential element (state_reg[0]) is unused and will be removed from module sample_FSM__20.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[7]) is unused and will be removed from module sample_FSM__20.
+WARNING: [Synth 8-3332] Sequential element (rand_reg[6]) is unused and will be removed from module sample_FSM__20.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'ss1i_2/ports[4].blocks[0].fsm/rand_reg[0]' (FDCE) to 'ss1i_2/ports[4].blocks[0].fsm/rand_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ss1i_2/ports[4].blocks[0].fsm/rand_reg[1]' (FDCE) to 'ss1i_2/ports[4].blocks[0].fsm/rand_reg[2]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_2/\ports[4].blocks[0].fsm /\rand_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ss1i_2/\ports[4].blocks[1].fsm /\rand_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[7].thread/ptr_O_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[6].thread/ptr_O_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[5].thread/ptr_O_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[4].thread/ptr_O_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[7].thread/ptr_O_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[6].thread/ptr_O_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[5].thread/ptr_O_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[4].thread/ptr_O_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[7].thread/ptr_O_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[6].thread/ptr_O_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[5].thread/ptr_O_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\gen_threads[4].thread/ptr_O_reg[2] )
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 822.559 ; gain = 615.387
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 822.559 ; gain = 615.387
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |sample__GB0   |           1|      3120|
+|2     |sample__GB1   |           1|       681|
+|3     |sample__GB2   |           1|      1162|
+|4     |buff          |           1|      1883|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:14 ; elapsed = 00:01:19 . Memory (MB): peak = 857.621 ; gain = 650.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:17 ; elapsed = 00:01:21 . Memory (MB): peak = 871.242 ; gain = 664.070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |sample__GB1   |           1|       681|
+|2     |buff          |           1|      1883|
+|3     |tb_GT0        |           1|      4282|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:19 ; elapsed = 00:01:24 . Memory (MB): peak = 895.602 ; gain = 688.430
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:19 ; elapsed = 00:01:24 . Memory (MB): peak = 895.602 ; gain = 688.430
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:19 ; elapsed = 00:01:24 . Memory (MB): peak = 895.602 ; gain = 688.430
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:20 ; elapsed = 00:01:25 . Memory (MB): peak = 895.602 ; gain = 688.430
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:20 ; elapsed = 00:01:25 . Memory (MB): peak = 895.602 ; gain = 688.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 895.602 ; gain = 688.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 895.602 ; gain = 688.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 895.602 ; gain = 688.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 895.602 ; gain = 688.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   384|
+|3     |LUT1   |     1|
+|4     |LUT2   |  1455|
+|5     |LUT3   |   143|
+|6     |LUT4   |   150|
+|7     |LUT5   |   255|
+|8     |LUT6   |   631|
+|9     |MUXF7  |   103|
+|10    |FDCE   |   161|
+|11    |FDPE   |    24|
+|12    |FDRE   |   768|
+|13    |IBUF   |    35|
+|14    |OBUF   |   161|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------------------+-------------------+------+
+|      |Instance                          |Module             |Cells |
++------+----------------------------------+-------------------+------+
+|1     |top                               |                   |  4272|
+|2     |  inst                            |buff               |  1280|
+|3     |    \gen_threads[0].thread        |singlethread       |    83|
+|4     |    \gen_threads[1].thread        |singlethread_22    |    83|
+|5     |    \gen_threads[2].thread        |singlethread_23    |    83|
+|6     |    \gen_threads[3].thread        |singlethread_24    |   103|
+|7     |    \gen_threads[4].thread        |singlethread_25    |     2|
+|8     |    \gen_threads[5].thread        |singlethread_26    |     2|
+|9     |    \gen_threads[6].thread        |singlethread_27    |     2|
+|10    |    \gen_threads[7].thread        |singlethread_28    |     3|
+|11    |  ss1                             |sample             |  2774|
+|12    |    \ports[0].blocks[0].fsm       |sample_FSM         |   142|
+|13    |    \ports[0].blocks[1].fsm       |sample_FSM_0       |   145|
+|14    |    \ports[0].blocks[2].fsm       |sample_FSM_1       |   143|
+|15    |    \ports[0].blocks[3].fsm       |sample_FSM_2       |   143|
+|16    |    \ports[1].blocks[0].fsm       |sample_FSM_3       |   142|
+|17    |    \ports[1].blocks[1].comb_32s  |sample_comb_32S    |     3|
+|18    |    \ports[1].blocks[1].fsm       |sample_FSM_4       |   174|
+|19    |    \ports[1].blocks[2].comb_32s  |sample_comb_32S_5  |     3|
+|20    |    \ports[1].blocks[2].fsm       |sample_FSM_6       |   172|
+|21    |    \ports[1].blocks[3].fsm       |sample_FSM_7       |   143|
+|22    |    \ports[2].blocks[0].fsm       |sample_FSM_8       |   142|
+|23    |    \ports[2].blocks[1].fsm       |sample_FSM_9       |   145|
+|24    |    \ports[2].blocks[2].comb_32s  |sample_comb_32S_10 |     3|
+|25    |    \ports[2].blocks[2].fsm       |sample_FSM_11      |   172|
+|26    |    \ports[2].blocks[3].comb_32s  |sample_comb_32S_12 |     3|
+|27    |    \ports[2].blocks[3].fsm       |sample_FSM_13      |   170|
+|28    |    \ports[3].blocks[0].comb_32s  |sample_comb_32S_14 |     3|
+|29    |    \ports[3].blocks[0].fsm       |sample_FSM_15      |   169|
+|30    |    \ports[3].blocks[1].comb_32s  |sample_comb_32S_16 |     3|
+|31    |    \ports[3].blocks[1].fsm       |sample_FSM_17      |   173|
+|32    |    \ports[3].blocks[2].comb_32s  |sample_comb_32S_18 |     3|
+|33    |    \ports[3].blocks[2].fsm       |sample_FSM_19      |   171|
+|34    |    \ports[3].blocks[3].comb_32s  |sample_comb_32S_20 |     3|
+|35    |    \ports[3].blocks[3].fsm       |sample_FSM_21      |   172|
++------+----------------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 895.602 ; gain = 688.430
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1484 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 895.602 ; gain = 148.879
+Synthesis Optimization Complete : Time (s): cpu = 00:01:21 ; elapsed = 00:01:26 . Memory (MB): peak = 895.602 ; gain = 688.430
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 419 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+183 Infos, 175 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:23 ; elapsed = 00:01:26 . Memory (MB): peak = 895.602 ; gain = 688.430
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 895.602 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu May 25 20:07:16 2017...

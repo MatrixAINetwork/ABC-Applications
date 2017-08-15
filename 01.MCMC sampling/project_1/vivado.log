@@ -1,0 +1,127 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu May 25 17:15:57 2017
+# Process ID: 1756
+# Current directory: C:/Users/Gao Fei/Desktop/sample/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4672 C:\Users\Gao Fei\Desktop\sample\project_1\project_1.xpr
+# Log file: C:/Users/Gao Fei/Desktop/sample/project_1/vivado.log
+# Journal file: C:/Users/Gao Fei/Desktop/sample/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Gao Fei/Desktop/sample/project_1/project_1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 761.363 ; gain = 147.941
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/tb.v" into library work [C:/Users/Gao Fei/Desktop/sample/tb.v:1]
+[Thu May 25 18:32:44 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/sample.v" into library work [C:/Users/Gao Fei/Desktop/sample/sample.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/tb.v" into library work [C:/Users/Gao Fei/Desktop/sample/tb.v:1]
+[Thu May 25 18:36:37 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/tb.v" into library work [C:/Users/Gao Fei/Desktop/sample/tb.v:1]
+[Thu May 25 18:39:13 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7vx690tffg1761-2
+INFO: [Netlist 29-17] Analyzing 539 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7vx690tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Gao Fei/Desktop/sample/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+Finished Parsing XDC File [C:/Users/Gao Fei/Desktop/sample/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:38 ; elapsed = 00:00:33 . Memory (MB): peak = 1366.473 ; gain = 567.410
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/tb.v" into library work [C:/Users/Gao Fei/Desktop/sample/tb.v:1]
+[Thu May 25 18:45:12 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/tb.v" into library work [C:/Users/Gao Fei/Desktop/sample/tb.v:1]
+[Thu May 25 18:47:09 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/buff.v" into library work [C:/Users/Gao Fei/Desktop/sample/buff.v:1]
+[Thu May 25 18:51:26 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/buff.v" into library work [C:/Users/Gao Fei/Desktop/sample/buff.v:1]
+[Thu May 25 19:21:10 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:22 ; elapsed = 00:00:20 . Memory (MB): peak = 1982.211 ; gain = 611.906
+refresh_design
+INFO: [Netlist 29-17] Analyzing 931 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Gao Fei/Desktop/sample/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+Finished Parsing XDC File [C:/Users/Gao Fei/Desktop/sample/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 2030.359 ; gain = 28.766
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/sample.v" into library work [C:/Users/Gao Fei/Desktop/sample/sample.v:1]
+[Thu May 25 19:27:20 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_2
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+refresh_design
+INFO: [Netlist 29-17] Analyzing 1603 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Gao Fei/Desktop/sample/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+Finished Parsing XDC File [C:/Users/Gao Fei/Desktop/sample/project_1/project_1.srcs/constrs_1/new/constrain.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 2073.676 ; gain = 2.020
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/tb.v" into library work [C:/Users/Gao Fei/Desktop/sample/tb.v:1]
+[Thu May 25 19:32:00 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/sample.v" into library work [C:/Users/Gao Fei/Desktop/sample/sample.v:1]
+[Thu May 25 20:02:39 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Gao Fei/Desktop/sample/buff.v" into library work [C:/Users/Gao Fei/Desktop/sample/buff.v:1]
+[Thu May 25 20:05:43 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Gao Fei/Desktop/sample/project_1/project_1.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 26 17:27:07 2017...
