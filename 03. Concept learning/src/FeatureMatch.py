@@ -1,0 +1,17 @@
+RFe = zeros(size(features1,1),1);
+Ind = zeros(size(features1,1),2);
+i1 = size(features1,1);
+i2 = size(features2,1);
+dist = pdist2(features1,features2);
+[sortdist, sortindex] = sort(dist,2,'ascend');
+RFe(:) = sortdist(:,1)./sortdist(:,2);
+Ind(:,1) = [1:size(features1)];
+Ind(:,2) = sortindex(:,1);
+nn_th = RFe < nnthreshold;
+NInd = find(nn_th);
+matches = [Ind(NInd,1), Ind(NInd,2)];    
+confidences = RFe(NInd);
+[confidences, ind] = sort(confidences, 'ascend');
+confidences = flip(confidences(1:100));
+ind = flip(ind(1:100));
+matches = matches(ind,:);
